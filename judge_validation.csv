@@ -1,0 +1,101 @@
+id,source_ds,question,gold,judge,correct
+halueval-6756,halueval,When did Bobby Sands' hunger strike end?,HALLUCINATED,HALLUCINATED,True
+financebench_id_05993,FinanceBench,"In agreement with the information outlined in the statement of income and the balance sheet, what is the FY2021 fixed asset turnover ratio for MGM Resorts? Fixed asset turnover ratio is defined as: FY",HALLUCINATED,HALLUCINATED,True
+halueval-6499,halueval,What was the birth date of the person who appraised the 48th governor of New York?,HALLUCINATED,GROUNDED,False
+halueval-2811,halueval,For which film did the female star of the film Mrs Doubtfire receive her second Academy Award ?,GROUNDED,GROUNDED,True
+halueval-3654,halueval,"Who inspired the name of the Danish company founded in 1991 after the merger of a number of Scandinavian travel agents, he also was a worker at the Fore River Shipyard?",HALLUCINATED,HALLUCINATED,True
+halueval-8838,halueval,"Charles Francis ""Frank"" Keeney Jr. was a union organizer during a war between which two factions ?",GROUNDED,GROUNDED,True
+halueval-6583,halueval,What race in china allows speeds up to 260 km/h on 6.2km of streets?,HALLUCINATED,GROUNDED,False
+halueval-2133,halueval,What fraudulent company was listed on both the Alberta Stock Exchange and the Toronto Stock Exchange?,GROUNDED,GROUNDED,True
+cc8fba7f-6008-40a0-8f71-32503fb3d00c,DROP,How many pounds did the ferry weigh?,GROUNDED,HALLUCINATED,False
+covidqa-47-perturbed,covidQA,What capture antibodies were used in the study?,HALLUCINATED,GROUNDED,False
+financebench_id_10449,FinanceBench,Answer the following question as if you are an investor that does not trust financial metric data providers to properly calculate basic operational and financial company metrics. By focusing primarily,GROUNDED,HALLUCINATED,False
+covidqa-766-perturbed,covidQA,Where did SARS-CoV-2 originate?,HALLUCINATED,HALLUCINATED,True
+financebench_id_06245,FinanceBench,What is FY2016 net working capital for Intel? Define net working capital as total current assets less total current liabilities. Answer in USD thousands. Answer the question asked by assuming you only,HALLUCINATED,HALLUCINATED,True
+halueval-2790,halueval,"Where is the band that came out with the album ""Isa"" currently based?",GROUNDED,GROUNDED,True
+covidqa-55,covidQA,What was the age range for the people surveyed?,GROUNDED,GROUNDED,True
+halueval-7027,halueval,"Which musician is American, Roy Khan or Lou Gramm?",HALLUCINATED,GROUNDED,False
+15827666,pubmedQA,Is risk perception affected by modes of risk presentation among Singaporeans?,GROUNDED,GROUNDED,True
+halueval-4285,halueval,Which musician has a solo punk rock project: Toshiko Koshijima or Frank Iero?,GROUNDED,GROUNDED,True
+16665,RAGTruth,how has it technology changed the workplace,GROUNDED,GROUNDED,True
+halueval-2633,halueval,What country of origin does LD Beghtol and 69 Love Songs have in common?,HALLUCINATED,HALLUCINATED,True
+halueval-5922,halueval,"Josefina Villamil Tinajero is a Mexican-American educator and author, she has worked as a professor of bilingual education at which public research university in El Paso, Texas, United States?",HALLUCINATED,HALLUCINATED,True
+halueval-7739,halueval,which American writer does Jean Graham  research on,GROUNDED,GROUNDED,True
+halueval-6838,halueval,Who was the writer of the short stories collection influenced by the surrealist painter that was a founding member of the Mexican Women's Liberation Movement? ,GROUNDED,GROUNDED,True
+financebench_id_06132,FinanceBench,We need to calculate a financial metric by using information only provided within the P&L statement and the statement of cash flows. Please answer the following question: what is the FY2019 interest c,GROUNDED,HALLUCINATED,False
+99c10414-055c-46cb-8e98-a8a1e8cd51e6,DROP,Which two ethnicities made up the largest percentages of the Hispanic and Latino Americans and Latinos of any race group?,HALLUCINATED,GROUNDED,False
+halueval-5217,halueval,"James T. Richardson is notably outspoken on which high-profile case that was born on February 20, 1954?",GROUNDED,GROUNDED,True
+halueval-5529,halueval,Kozmic Blues was performed by Janis Joplin as part of which iconic festival set?,GROUNDED,GROUNDED,True
+halueval-1662,halueval,What was the position of the player who's final match was the final of the 2003-04 Scottish Cup,GROUNDED,GROUNDED,True
+financebench_id_07900,FinanceBench,What is the year end FY2016 net amount of accounts receivable for American Water Works? Answer in USD millions. Answer the question asked by assuming you only have access to information clearly displa,HALLUCINATED,HALLUCINATED,True
+halueval-8147,halueval,"Are University of Maryland, College Park and Lipscomb University in the same state?",HALLUCINATED,HALLUCINATED,True
+halueval-7570,halueval,Duke Johnson serves as a director for Dino Stamatopoulos who played Alex in what NBC comedy?,GROUNDED,GROUNDED,True
+halueval-5479,halueval,The lead singer of the alternative metal band Faith No More appeared on the album entitled Profanation which was the last album by which group?,GROUNDED,GROUNDED,True
+14760,RAGTruth,what is the normal b natriuretic peptide,GROUNDED,GROUNDED,True
+halueval-3730,halueval,Twelve-year-old Will is left to live with his aunt and uncle at the end of war that began in what year?,GROUNDED,GROUNDED,True
+financebench_id_07559,FinanceBench,What is the dividend payout ratio (using total cash dividends paid and net income attributable to shareholders) for Best Buy's FY2017? Round answer to two decimal places. Address the question by using,HALLUCINATED,HALLUCINATED,True
+3ad0a522-1542-470d-a339-eb2b5f2809cf,DROP,"Which Taunton Art Gallery  had sales, Art Euphoric or Trescott Street gallery?",HALLUCINATED,HALLUCINATED,True
+halueval-1097,halueval,Where did Auguste von Müller play Dalila in 1877?,HALLUCINATED,HALLUCINATED,True
+halueval-751,halueval,What video game magazine was a part subsidiary of a Chinese-owned venture capital organization?,HALLUCINATED,HALLUCINATED,True
+halueval-5058,halueval,] Moose Pond is located in a town with a population of what at the 2010 census?,HALLUCINATED,HALLUCINATED,True
+2514c951-8adf-4209-8f33-0cacdcfd4033,DROP,How many more rebels were killed compared to British troops being lost?,HALLUCINATED,GROUNDED,False
+financebench_id_08020,FinanceBench,What is American Water Works's FY2017 total D&A (as shown in cash flow statement) as a percent of total revenue? Address the question by adopting the perspective of a financial analyst who can only us,GROUNDED,HALLUCINATED,False
+halueval-1430,halueval,The elachista canapennella moth is found in this region which name comes from the latin words for Finland and Scandinavian.,HALLUCINATED,GROUNDED,False
+halueval-2626,halueval,The real life person that James Woods' character is based on in the television film In Love and War was awarded what medal?,HALLUCINATED,HALLUCINATED,True
+financebench_id_06967,FinanceBench,What is FY2019 net working capital for American Water Works? Define net working capital as total current assets less total current liabilities. Answer in USD thousands. Provide a response to the quest,HALLUCINATED,HALLUCINATED,True
+financebench_id_04151,FinanceBench,What is MGM Resorts's change in unadjusted EBITDA % margin from FY2020 to FY2021 (in units of percents and round to one decimal place)? Calculate unadjusted EBITDA using unadjusted operating income an,GROUNDED,HALLUCINATED,False
+halueval-8933,halueval,did Heather Watson and Dick Crealy both play tennis at one point of their lives ?,HALLUCINATED,HALLUCINATED,True
+16895,RAGTruth,color of urin meaning,HALLUCINATED,GROUNDED,False
+financebench_id_01568,FinanceBench,What brought about the change in Pfizer's deferred revenues of FY2022 vs FY2021?,GROUNDED,GROUNDED,True
+17399,RAGTruth,what exercises tone the chest,GROUNDED,GROUNDED,True
+halueval-1094,halueval,Derrick Delite's rap was featured on the remix and video version of a song by an American singer that  began her career as a cheerleader for who?,GROUNDED,GROUNDED,True
+halueval-5022,halueval,"Who is Major League Soccer's first all-time leader in regular season goals, known for playing forward and attacking midfielder?",GROUNDED,GROUNDED,True
+25862596,pubmedQA,Is early menarche associated with increased risk of asthma : Prospective population-based study of twins?,GROUNDED,GROUNDED,True
+halueval-7460,halueval,The Big Moo includes an essay by the co-owner and chairman of what television station?,HALLUCINATED,HALLUCINATED,True
+halueval-8175,halueval,Who  is an American actor who starred in a 1996 American comedy film starring Jack Lemmon and James Garner ?,GROUNDED,GROUNDED,True
+b86338ad-b2dd-4e3d-93f5-51fcffc1b8ab,DROP,Who represented the Emperor at Parliament?,HALLUCINATED,HALLUCINATED,True
+90ca93ef-fa40-4ae3-8353-f337b31dd02b,DROP,How many from the census were in Ungheni and Cahul?,GROUNDED,HALLUCINATED,False
+halueval-6538,halueval,In which season the professional ice hockey right winger served as the alternate captain along  with Richard Park  who was drafted seventh overall in the 2006 NHL Entry Draft by the New York Islanders,GROUNDED,GROUNDED,True
+halueval-8184,halueval, Guardian: The Lonely and Great God starred what BtoB boy group member?,HALLUCINATED,HALLUCINATED,True
+halueval-6738,halueval,"What movie did the ""Cool Down"" singer rise to prominence with?",GROUNDED,GROUNDED,True
+halueval-5494,halueval,Which Australian rules football player played during the 1970s and 1980s and had had a younger brother who was a legendary Geelong player?,GROUNDED,GROUNDED,True
+14763,RAGTruth,what is the normal b natriuretic peptide,HALLUCINATED,HALLUCINATED,True
+halueval-46,halueval,What does the Hacker-Pschorr Brewery have to limit in order to comply with German regulations?,GROUNDED,GROUNDED,True
+halueval-9444,halueval,They are both singers,HALLUCINATED,GROUNDED,False
+halueval-9019,halueval,Andreas Katsulas plays the villain Sykes in a film based on a 1960's tv series created by who?,HALLUCINATED,HALLUCINATED,True
+halueval-418,halueval,"What is based in Sankt Ulrich bei Steyr, Austria? ",HALLUCINATED,HALLUCINATED,True
+halueval-2137,halueval,"Who was the bassist for Tool's song ""Schism""?",GROUNDED,GROUNDED,True
+covidqa-1507,covidQA,"With the intervention of movement restrictions starting on 5th February 2020, what were the confirmed cases for COVID-19, were limited  to?",GROUNDED,GROUNDED,True
+financebench_id_01863,FinanceBench,"Was there any major movement in 3M's Goodwill in 2022, and what were the key drivers?",HALLUCINATED,HALLUCINATED,True
+halueval-1478,halueval,From what famous soliloquy is the title What Dreams May Come derived from?,HALLUCINATED,HALLUCINATED,True
+halueval-8118,halueval,"The former college and professional football player known for the horse-collar tackle, earned how many straight Pro Bowl selections from 2003 to 2007?",HALLUCINATED,HALLUCINATED,True
+halueval-7609,halueval,What English actor known for starring on The Wire appeared in Ghost Rider: Spirit of Vengeance,HALLUCINATED,GROUNDED,False
+16455,RAGTruth,where is dove soap headquarters,GROUNDED,HALLUCINATED,False
+18403945,pubmedQA,Does laparoscopic antireflux surgery improve quality of life in patients whose gastro-oesophageal reflux disease is well controlled with medical therapy?,HALLUCINATED,HALLUCINATED,True
+halueval-8001,halueval,What is George Miller connection to Mad Max 2,HALLUCINATED,HALLUCINATED,True
+halueval-5937,halueval,during the 2011 Major League Baseball draft the Pittsburgh Pirates selected what pitcher that attended the University of California?,GROUNDED,GROUNDED,True
+halueval-5011,halueval,Ethan Phillips plays the character Neelix in what sci-fi tv series?,HALLUCINATED,HALLUCINATED,True
+halueval-2521,halueval,Do Bellevalia and Pear belong to the same family?,HALLUCINATED,GROUNDED,False
+halueval-6190,halueval,Three Town Senior High School is located in a town whose name literally means what?,HALLUCINATED,HALLUCINATED,True
+halueval-5048,halueval,"What is the nationality of the author of ""Play Dirty""?",HALLUCINATED,HALLUCINATED,True
+15900,RAGTruth,what is a transistor how does it work,GROUNDED,GROUNDED,True
+halueval-8219,halueval,"Which company based in Stockton, California, participates in the Labels for Education marketing program?",GROUNDED,GROUNDED,True
+halueval-6267,halueval,Paris By Night 83 is shot in an amusement park that features how many rides ?,HALLUCINATED,HALLUCINATED,True
+f5ff3679-039b-4d31-ba9c-2b23bcdcf134,DROP,How many more rushing touchdowns were scored when compared to passing?,GROUNDED,HALLUCINATED,False
+halueval-597,halueval,"Which magazine is published in the United Kingdom, Bella or Al Jamila?",GROUNDED,GROUNDED,True
+halueval-5780,halueval,When was the English poet born who introduced Ernest Hemingway: The Collected Stories?,HALLUCINATED,HALLUCINATED,True
+14690,RAGTruth,how to get antique effect on wood using normal paint,HALLUCINATED,HALLUCINATED,True
+halueval-9038,halueval,"What area has become a popular tourist destination, maintained by the Maui Land & Pineapple Company?",HALLUCINATED,HALLUCINATED,True
+halueval-6634,halueval,"What Czech operatic contralto had a close partnership with the composer of ""The Bartered Bride""?",GROUNDED,GROUNDED,True
+halueval-716,halueval,"Dr Donald John Pinkava, is a botanist, specialising in cacti and succulents, and he is the discoverer of some of their varieties, at which public metropolitan research university on five campuses acro",GROUNDED,GROUNDED,True
+halueval-8275,halueval,"Princess Eilonwy, is a fictional character in Lloyd Alexander's ""The Chronicles of Prydain"", she also appears  in four of the five novels in the series, as well as Disney's 1985 animated film adaptati",GROUNDED,GROUNDED,True
+22015557,pubmedQA,Does targeting PIM kinase enhance the activity of sunitinib in renal cell carcinoma?,HALLUCINATED,HALLUCINATED,True
+halueval-7141,halueval,What team formed by three times Formula One champion Jackie Stewart and his son Paul Stewart in 1996 used The Stewart SF01 in the 1997 Formula One season?,GROUNDED,GROUNDED,True
+21039404,pubmedQA,Does deregulation of PERK in the autoimmune disease pemphigus vulgaris occur via IgG-independent mechanisms?,GROUNDED,GROUNDED,True
+24c508bf-367b-44ac-960e-eb974ff1afd7,DROP,who is carolina's quarterback?,GROUNDED,GROUNDED,True
+halueval-5912,halueval,Which director with the middle name Jerome helped work which movie with Roger Avary?,HALLUCINATED,HALLUCINATED,True
+12765,RAGTruth,what is the treatment when asset is discarded as per income tax act,HALLUCINATED,HALLUCINATED,True
+halueval-2557,halueval,Dan Laustsen was in what movie that was directed by Stephen Norrington?,GROUNDED,GROUNDED,True
+halueval-2689,halueval,"what nationality was the actress that stared in Madeleine, that was also Leans then wife?",GROUNDED,GROUNDED,True
+halueval-7886,halueval,"Who was the artist of the two studio albums ""Some Time in New York City"" and ""Mind Games""? John Lennon",HALLUCINATED,HALLUCINATED,True
+halueval-8667,halueval,"""I'm in Disgrace"" is the opening track on the second side of which English rock band formed in Muswell Hill, North London,1975 concept album, ""Schoolboys in Disgrace""?",GROUNDED,GROUNDED,True

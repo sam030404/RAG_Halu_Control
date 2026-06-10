@@ -1,0 +1,11 @@
+
+
+# API 키 — 절대 GitHub에 올라가면 안 됨
+.env
+
+# Python 실행할 때 자동 생성되는 파일들
+__pycache__/
+*.pyc
+
+# ChromaDB가 벡터 저장하는 폴더
+chroma_db/

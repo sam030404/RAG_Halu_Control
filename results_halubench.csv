@@ -1,0 +1,5 @@
+config,total,hallucinated,abstained,hallucination_rate,out_of_doc_hallucination_rate,in_doc_hallucination_rate,in_doc_answered,in_doc_answer_rate,in_doc_false_refusal_rate
+Baseline,100,30,1,30.0,56.0,4.0,48,96.0,0.0
++Faithfulness,100,0,48,0.0,0.0,0.0,44,88.0,12.0
++Threshold,100,1,59,1.0,0.0,2.0,40,80.0,18.0
++All,100,1,64,1.0,0.0,2.0,35,70.0,28.0
