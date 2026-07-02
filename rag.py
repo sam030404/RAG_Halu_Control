@@ -23,7 +23,7 @@ DEFAULT_THRESHOLD = 0.5
 DEFAULT_TOP_K = 3
 
 # 거부(abstention) 문구 — 이 문구들은 "환각"이 아니라 안전한 응답으로 취급된다.
-NO_INFO = "관련 정보 없음: 제공된 응급처치 문서에서 해당 내용을 찾을 수 없습니다."
+NO_INFO = "관련 정보 없음: 제공된 문서에서 해당 내용을 찾을 수 없습니다."
 NO_GROUND = "제공된 문서에 근거가 없어 답변드릴 수 없습니다."
 UNCERTAIN = "확실하지 않음: 문서로 뒷받침되지 않아 답변을 신뢰할 수 없습니다."
 
@@ -173,12 +173,16 @@ class RAGSystem:
 
 
 if __name__ == "__main__":
-    from data import get_chunks
-
-    rag = RAGSystem(get_chunks())
+    # 간단한 동작 확인용 인라인 코퍼스 (실제 실험 코퍼스는 halubench.load_experiment 사용).
+    demo_chunks = [
+        {"doc_id": "d1", "title": "geo", "text": "The capital of France is Paris."},
+        {"doc_id": "d2", "title": "geo", "text": "The Nile is the longest river in Africa."},
+        {"doc_id": "d3", "title": "sci", "text": "Water boils at 100 degrees Celsius at sea level."},
+    ]
+    rag = RAGSystem(demo_chunks)
     print(f"인덱스 구축 완료: 청크 {len(rag.chunks)}개, 임베딩 차원 {rag.matrix.shape}\n")
 
-    for q in ["성인 CPR 시 가슴 압박 깊이는 몇 cm인가?", "골절이 의심될 때 응급처치는?"]:
+    for q in ["What is the capital of France?", "Who was the first president of the moon?"]:
         print(f"Q: {q}")
         hits, top = rag.retrieve(q)
         print(f"  top 유사도: {top:.3f}")
